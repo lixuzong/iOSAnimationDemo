@@ -1,0 +1,5 @@
+# 动画集合Demo
+
+这是看了CoreAnimation框架，并且看了UICollectionView框架之后的一个反馈的Demo，主要包括逐帧动画的实现，探索逐帧动画的动画缓冲函数，动画在UICollectionView的应用，实现了navigation，tabBar，modal的自定义非交互转场和交互转场，还有自定义transitionContext的controller之间的转场动画。
+
+以后遇到其他的动画形式会继续添加。。。

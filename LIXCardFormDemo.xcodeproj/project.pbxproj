@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C258A551E023966004A3071 /* LIXTwoSolidObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C258A541E023966004A3071 /* LIXTwoSolidObjectView.m */; };
+		5C4F34F61E077D1C006A313B /* LIXWaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F34F51E077D1C006A313B /* LIXWaterViewController.m */; };
+		5C4F34FA1E077D3D006A313B /* LIXWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F34F91E077D3C006A313B /* LIXWaterWaveView.m */; };
+		5C4F34FE1E07CFF0006A313B /* LIXDIYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F34FD1E07CFF0006A313B /* LIXDIYMainViewController.m */; };
+		5C4F35011E07D015006A313B /* LIXDIYModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F35001E07D015006A313B /* LIXDIYModalViewController.m */; };
+		5C4F35041E07D3F4006A313B /* LIXBouncePresentAnimaion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F35031E07D3F4006A313B /* LIXBouncePresentAnimaion.m */; };
+		5C67B50F1E0A2CE6008F43E6 /* LIXScrollTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C67B50E1E0A2CE6008F43E6 /* LIXScrollTabBarController.m */; };
+		5C67B5141E0A7082008F43E6 /* LIXContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C67B5131E0A7082008F43E6 /* LIXContainerViewController.m */; };
+		5C67B5171E0A71B6008F43E6 /* LIXPrivateTransitionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C67B5161E0A71B6008F43E6 /* LIXPrivateTransitionContext.m */; };
+		5C722B731DEBCC6200E6ED3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722B721DEBCC6200E6ED3B /* main.m */; };
+		5C722B761DEBCC6200E6ED3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722B751DEBCC6200E6ED3B /* AppDelegate.m */; };
+		5C722B791DEBCC6200E6ED3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722B781DEBCC6200E6ED3B /* ViewController.m */; };
+		5C722B7C1DEBCC6200E6ED3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C722B7A1DEBCC6200E6ED3B /* Main.storyboard */; };
+		5C722B7E1DEBCC6200E6ED3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C722B7D1DEBCC6200E6ED3B /* Assets.xcassets */; };
+		5C722B811DEBCC6200E6ED3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C722B7F1DEBCC6200E6ED3B /* LaunchScreen.storyboard */; };
+		5C722B8C1DEBCC6200E6ED3B /* LIXCardFormDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722B8B1DEBCC6200E6ED3B /* LIXCardFormDemoTests.m */; };
+		5C722B971DEBCC6200E6ED3B /* LIXCardFormDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722B961DEBCC6200E6ED3B /* LIXCardFormDemoUITests.m */; };
+		5C722BAF1DEC063400E6ED3B /* LIXCardForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722BAE1DEC063400E6ED3B /* LIXCardForm.m */; };
+		5C722BB21DEC145100E6ED3B /* LIXCardFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722BB11DEC145100E6ED3B /* LIXCardFormItem.m */; };
+		5C722BB61DEC232200E6ED3B /* LIXCollectionViewBasicFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722BB51DEC232200E6ED3B /* LIXCollectionViewBasicFlowLayout.m */; };
+		5C722BBA1DEC38E000E6ED3B /* LIXCollectionViewCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722BB91DEC38E000E6ED3B /* LIXCollectionViewCoverFlowLayout.m */; };
+		5C722BBD1DED188800E6ED3B /* LIXCollectionViewCoverLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C722BBC1DED188800E6ED3B /* LIXCollectionViewCoverLayoutAttributes.m */; };
+		5C7DD1C61DF51CCB00F575B7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DD1C51DF51CCB00F575B7 /* MainViewController.m */; };
+		5C7DD1CA1DF53D3B00F575B7 /* LIXDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DD1C91DF53D3B00F575B7 /* LIXDynamicViewController.m */; };
+		5C7DD1CE1DF53DCA00F575B7 /* LIXDynamicFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DD1CD1DF53DCA00F575B7 /* LIXDynamicFlowLayout.m */; };
+		5C7DD1D11DF559FC00F575B7 /* LIXDetailFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DD1D01DF559FC00F575B7 /* LIXDetailFlowLayout.m */; };
+		5C7DD1D41DF55DEF00F575B7 /* LIXSecondaryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DD1D31DF55DEF00F575B7 /* LIXSecondaryData.m */; };
+		5CBFF6F01E011B8000C99379 /* LIXSolidObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBFF6EF1E011B8000C99379 /* LIXSolidObjectViewController.m */; };
+		5CBFF6F31E01303700C99379 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBFF6F21E01303700C99379 /* GLKit.framework */; };
+		5CBFF6F71E01499600C99379 /* LIXLayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBFF6F61E01499600C99379 /* LIXLayerTestViewController.m */; };
+		5CBFF6FB1E0151AB00C99379 /* LIXShapeLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBFF6FA1E0151AB00C99379 /* LIXShapeLayerView.m */; };
+		5CFBA1961E0934A000312B53 /* LIXNiceGoodsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFBA1951E0934A000312B53 /* LIXNiceGoodsCollectionViewController.m */; };
+		5CFBA1991E0934D900312B53 /* LIXNiceGoodsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFBA1981E0934D900312B53 /* LIXNiceGoodsLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C722B881DEBCC6200E6ED3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C722B661DEBCC6200E6ED3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C722B6D1DEBCC6200E6ED3B;
+			remoteInfo = LIXCardFormDemo;
+		};
+		5C722B931DEBCC6200E6ED3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C722B661DEBCC6200E6ED3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C722B6D1DEBCC6200E6ED3B;
+			remoteInfo = LIXCardFormDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C258A531E023966004A3071 /* LIXTwoSolidObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXTwoSolidObjectView.h; path = solidObject/LIXTwoSolidObjectView.h; sourceTree = "<group>"; };
+		5C258A541E023966004A3071 /* LIXTwoSolidObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXTwoSolidObjectView.m; path = solidObject/LIXTwoSolidObjectView.m; sourceTree = "<group>"; };
+		5C4F34F41E077D1C006A313B /* LIXWaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXWaterViewController.h; path = waterWave/LIXWaterViewController.h; sourceTree = "<group>"; };
+		5C4F34F51E077D1C006A313B /* LIXWaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXWaterViewController.m; path = waterWave/LIXWaterViewController.m; sourceTree = "<group>"; };
+		5C4F34F81E077D3C006A313B /* LIXWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXWaterWaveView.h; path = waterWave/LIXWaterWaveView.h; sourceTree = "<group>"; };
+		5C4F34F91E077D3C006A313B /* LIXWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXWaterWaveView.m; path = waterWave/LIXWaterWaveView.m; sourceTree = "<group>"; };
+		5C4F34FC1E07CFF0006A313B /* LIXDIYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXDIYMainViewController.h; path = DIYVCTransition/LIXDIYMainViewController.h; sourceTree = "<group>"; };
+		5C4F34FD1E07CFF0006A313B /* LIXDIYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXDIYMainViewController.m; path = DIYVCTransition/LIXDIYMainViewController.m; sourceTree = "<group>"; };
+		5C4F34FF1E07D015006A313B /* LIXDIYModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXDIYModalViewController.h; path = DIYVCTransition/LIXDIYModalViewController.h; sourceTree = "<group>"; };
+		5C4F35001E07D015006A313B /* LIXDIYModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXDIYModalViewController.m; path = DIYVCTransition/LIXDIYModalViewController.m; sourceTree = "<group>"; };
+		5C4F35021E07D3F4006A313B /* LIXBouncePresentAnimaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXBouncePresentAnimaion.h; path = DIYVCTransition/LIXBouncePresentAnimaion.h; sourceTree = "<group>"; };
+		5C4F35031E07D3F4006A313B /* LIXBouncePresentAnimaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXBouncePresentAnimaion.m; path = DIYVCTransition/LIXBouncePresentAnimaion.m; sourceTree = "<group>"; };
+		5C67B50D1E0A2CE6008F43E6 /* LIXScrollTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXScrollTabBarController.h; path = scrollTabBarController/LIXScrollTabBarController.h; sourceTree = "<group>"; };
+		5C67B50E1E0A2CE6008F43E6 /* LIXScrollTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXScrollTabBarController.m; path = scrollTabBarController/LIXScrollTabBarController.m; sourceTree = "<group>"; };
+		5C67B5121E0A7082008F43E6 /* LIXContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXContainerViewController.h; path = DIYVCTransition/VCToVCSytle/LIXContainerViewController.h; sourceTree = "<group>"; };
+		5C67B5131E0A7082008F43E6 /* LIXContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXContainerViewController.m; path = DIYVCTransition/VCToVCSytle/LIXContainerViewController.m; sourceTree = "<group>"; };
+		5C67B5151E0A71B6008F43E6 /* LIXPrivateTransitionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXPrivateTransitionContext.h; path = DIYVCTransition/VCToVCSytle/LIXPrivateTransitionContext.h; sourceTree = "<group>"; };
+		5C67B5161E0A71B6008F43E6 /* LIXPrivateTransitionContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXPrivateTransitionContext.m; path = DIYVCTransition/VCToVCSytle/LIXPrivateTransitionContext.m; sourceTree = "<group>"; };
+		5C722B6E1DEBCC6200E6ED3B /* LIXCardFormDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIXCardFormDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C722B721DEBCC6200E6ED3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C722B741DEBCC6200E6ED3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C722B751DEBCC6200E6ED3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C722B771DEBCC6200E6ED3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C722B781DEBCC6200E6ED3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C722B7B1DEBCC6200E6ED3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C722B7D1DEBCC6200E6ED3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C722B801DEBCC6200E6ED3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C722B821DEBCC6200E6ED3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C722B871DEBCC6200E6ED3B /* LIXCardFormDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIXCardFormDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C722B8B1DEBCC6200E6ED3B /* LIXCardFormDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIXCardFormDemoTests.m; sourceTree = "<group>"; };
+		5C722B8D1DEBCC6200E6ED3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C722B921DEBCC6200E6ED3B /* LIXCardFormDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIXCardFormDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C722B961DEBCC6200E6ED3B /* LIXCardFormDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIXCardFormDemoUITests.m; sourceTree = "<group>"; };
+		5C722B981DEBCC6200E6ED3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C722BAD1DEC063400E6ED3B /* LIXCardForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXCardForm.h; path = LIXCardForm/LIXCardForm.h; sourceTree = "<group>"; };
+		5C722BAE1DEC063400E6ED3B /* LIXCardForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXCardForm.m; path = LIXCardForm/LIXCardForm.m; sourceTree = "<group>"; };
+		5C722BB01DEC145100E6ED3B /* LIXCardFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXCardFormItem.h; path = LIXCardForm/LIXCardFormItem.h; sourceTree = "<group>"; };
+		5C722BB11DEC145100E6ED3B /* LIXCardFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXCardFormItem.m; path = LIXCardForm/LIXCardFormItem.m; sourceTree = "<group>"; };
+		5C722BB41DEC232200E6ED3B /* LIXCollectionViewBasicFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXCollectionViewBasicFlowLayout.h; path = LIXCardForm/LIXCollectionViewFlowLayout/LIXCollectionViewBasicFlowLayout.h; sourceTree = "<group>"; };
+		5C722BB51DEC232200E6ED3B /* LIXCollectionViewBasicFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXCollectionViewBasicFlowLayout.m; path = LIXCardForm/LIXCollectionViewFlowLayout/LIXCollectionViewBasicFlowLayout.m; sourceTree = "<group>"; };
+		5C722BB81DEC38E000E6ED3B /* LIXCollectionViewCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIXCollectionViewCoverFlowLayout.h; sourceTree = "<group>"; };
+		5C722BB91DEC38E000E6ED3B /* LIXCollectionViewCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIXCollectionViewCoverFlowLayout.m; sourceTree = "<group>"; };
+		5C722BBB1DED188800E6ED3B /* LIXCollectionViewCoverLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXCollectionViewCoverLayoutAttributes.h; path = LIXCardForm/LIXCollectionViewFlowLayout/LIXCollectionViewCoverLayoutAttributes.h; sourceTree = "<group>"; };
+		5C722BBC1DED188800E6ED3B /* LIXCollectionViewCoverLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXCollectionViewCoverLayoutAttributes.m; path = LIXCardForm/LIXCollectionViewFlowLayout/LIXCollectionViewCoverLayoutAttributes.m; sourceTree = "<group>"; };
+		5C7DD1C41DF51CCB00F575B7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5C7DD1C51DF51CCB00F575B7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5C7DD1C81DF53D3B00F575B7 /* LIXDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXDynamicViewController.h; path = LIXDynamics/LIXDynamicViewController.h; sourceTree = "<group>"; };
+		5C7DD1C91DF53D3B00F575B7 /* LIXDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXDynamicViewController.m; path = LIXDynamics/LIXDynamicViewController.m; sourceTree = "<group>"; };
+		5C7DD1CC1DF53DCA00F575B7 /* LIXDynamicFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXDynamicFlowLayout.h; path = LIXDynamics/layout/LIXDynamicFlowLayout.h; sourceTree = "<group>"; };
+		5C7DD1CD1DF53DCA00F575B7 /* LIXDynamicFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXDynamicFlowLayout.m; path = LIXDynamics/layout/LIXDynamicFlowLayout.m; sourceTree = "<group>"; };
+		5C7DD1CF1DF559FC00F575B7 /* LIXDetailFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXDetailFlowLayout.h; path = LIXDynamics/layout/LIXDetailFlowLayout.h; sourceTree = "<group>"; };
+		5C7DD1D01DF559FC00F575B7 /* LIXDetailFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXDetailFlowLayout.m; path = LIXDynamics/layout/LIXDetailFlowLayout.m; sourceTree = "<group>"; };
+		5C7DD1D21DF55DEF00F575B7 /* LIXSecondaryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXSecondaryData.h; path = LIXDynamics/LIXSecondaryData.h; sourceTree = "<group>"; };
+		5C7DD1D31DF55DEF00F575B7 /* LIXSecondaryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXSecondaryData.m; path = LIXDynamics/LIXSecondaryData.m; sourceTree = "<group>"; };
+		5CBFF6EE1E011B8000C99379 /* LIXSolidObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXSolidObjectViewController.h; path = solidObject/LIXSolidObjectViewController.h; sourceTree = "<group>"; };
+		5CBFF6EF1E011B8000C99379 /* LIXSolidObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXSolidObjectViewController.m; path = solidObject/LIXSolidObjectViewController.m; sourceTree = "<group>"; };
+		5CBFF6F21E01303700C99379 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		5CBFF6F51E01499600C99379 /* LIXLayerTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXLayerTestViewController.h; path = layerTest/LIXLayerTestViewController.h; sourceTree = "<group>"; };
+		5CBFF6F61E01499600C99379 /* LIXLayerTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXLayerTestViewController.m; path = layerTest/LIXLayerTestViewController.m; sourceTree = "<group>"; };
+		5CBFF6F91E0151AB00C99379 /* LIXShapeLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXShapeLayerView.h; path = layerTest/LIXShapeLayerView.h; sourceTree = "<group>"; };
+		5CBFF6FA1E0151AB00C99379 /* LIXShapeLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXShapeLayerView.m; path = layerTest/LIXShapeLayerView.m; sourceTree = "<group>"; };
+		5CFBA1941E0934A000312B53 /* LIXNiceGoodsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIXNiceGoodsCollectionViewController.h; path = niceGoods/LIXNiceGoodsCollectionViewController.h; sourceTree = "<group>"; };
+		5CFBA1951E0934A000312B53 /* LIXNiceGoodsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIXNiceGoodsCollectionViewController.m; path = niceGoods/LIXNiceGoodsCollectionViewController.m; sourceTree = "<group>"; };
+		5CFBA1971E0934D900312B53 /* LIXNiceGoodsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIXNiceGoodsLayout.h; sourceTree = "<group>"; };
+		5CFBA1981E0934D900312B53 /* LIXNiceGoodsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIXNiceGoodsLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C722B6B1DEBCC6200E6ED3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBFF6F31E01303700C99379 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C722B841DEBCC6200E6ED3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C722B8F1DEBCC6200E6ED3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C4F34F31E077CDA006A313B /* whaterWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F34F71E077D22006A313B /* view */,
+				5C4F34F41E077D1C006A313B /* LIXWaterViewController.h */,
+				5C4F34F51E077D1C006A313B /* LIXWaterViewController.m */,
+			);
+			name = whaterWaveView;
+			sourceTree = "<group>";
+		};
+		5C4F34F71E077D22006A313B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F34F81E077D3C006A313B /* LIXWaterWaveView.h */,
+				5C4F34F91E077D3C006A313B /* LIXWaterWaveView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		5C4F34FB1E07CF8B006A313B /* DIYVCTransition */ = {
+			isa = PBXGroup;
+			children = (
+				5C67B5111E0A6C06008F43E6 /* vcTovcTransition */,
+				5C67B50C1E0A2C87008F43E6 /* ScrollTabBarVC */,
+				5C4F34FC1E07CFF0006A313B /* LIXDIYMainViewController.h */,
+				5C4F34FD1E07CFF0006A313B /* LIXDIYMainViewController.m */,
+				5C4F34FF1E07D015006A313B /* LIXDIYModalViewController.h */,
+				5C4F35001E07D015006A313B /* LIXDIYModalViewController.m */,
+				5C4F35021E07D3F4006A313B /* LIXBouncePresentAnimaion.h */,
+				5C4F35031E07D3F4006A313B /* LIXBouncePresentAnimaion.m */,
+			);
+			name = DIYVCTransition;
+			sourceTree = "<group>";
+		};
+		5C67B50B1E0A2579008F43E6 /* mainPages */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DD1C41DF51CCB00F575B7 /* MainViewController.h */,
+				5C7DD1C51DF51CCB00F575B7 /* MainViewController.m */,
+				5C722B771DEBCC6200E6ED3B /* ViewController.h */,
+				5C722B781DEBCC6200E6ED3B /* ViewController.m */,
+			);
+			name = mainPages;
+			sourceTree = "<group>";
+		};
+		5C67B50C1E0A2C87008F43E6 /* ScrollTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				5C67B50D1E0A2CE6008F43E6 /* LIXScrollTabBarController.h */,
+				5C67B50E1E0A2CE6008F43E6 /* LIXScrollTabBarController.m */,
+			);
+			name = ScrollTabBarVC;
+			sourceTree = "<group>";
+		};
+		5C67B5111E0A6C06008F43E6 /* vcTovcTransition */ = {
+			isa = PBXGroup;
+			children = (
+				5C67B5121E0A7082008F43E6 /* LIXContainerViewController.h */,
+				5C67B5131E0A7082008F43E6 /* LIXContainerViewController.m */,
+				5C67B5151E0A71B6008F43E6 /* LIXPrivateTransitionContext.h */,
+				5C67B5161E0A71B6008F43E6 /* LIXPrivateTransitionContext.m */,
+			);
+			name = vcTovcTransition;
+			sourceTree = "<group>";
+		};
+		5C722B651DEBCC6200E6ED3B = {
+			isa = PBXGroup;
+			children = (
+				5C722B701DEBCC6200E6ED3B /* LIXCardFormDemo */,
+				5C722B8A1DEBCC6200E6ED3B /* LIXCardFormDemoTests */,
+				5C722B951DEBCC6200E6ED3B /* LIXCardFormDemoUITests */,
+				5C722B6F1DEBCC6200E6ED3B /* Products */,
+				5CBFF6F11E01303700C99379 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C722B6F1DEBCC6200E6ED3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C722B6E1DEBCC6200E6ED3B /* LIXCardFormDemo.app */,
+				5C722B871DEBCC6200E6ED3B /* LIXCardFormDemoTests.xctest */,
+				5C722B921DEBCC6200E6ED3B /* LIXCardFormDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C722B701DEBCC6200E6ED3B /* LIXCardFormDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C67B50B1E0A2579008F43E6 /* mainPages */,
+				5CFBA1931E09343F00312B53 /* niceGoods */,
+				5C4F34FB1E07CF8B006A313B /* DIYVCTransition */,
+				5C4F34F31E077CDA006A313B /* whaterWaveView */,
+				5CBFF6F41E01493700C99379 /* LayerTestVC */,
+				5CBFF6ED1E011AB700C99379 /* SolidObject */,
+				5C7DD1C71DF53C8900F575B7 /* LIXDynamics */,
+				5C722BAC1DEC060A00E6ED3B /* LIXCardForm */,
+				5C722B711DEBCC6200E6ED3B /* Supporting Files */,
+			);
+			path = LIXCardFormDemo;
+			sourceTree = "<group>";
+		};
+		5C722B711DEBCC6200E6ED3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C722B741DEBCC6200E6ED3B /* AppDelegate.h */,
+				5C722B751DEBCC6200E6ED3B /* AppDelegate.m */,
+				5C722B7A1DEBCC6200E6ED3B /* Main.storyboard */,
+				5C722B7D1DEBCC6200E6ED3B /* Assets.xcassets */,
+				5C722B7F1DEBCC6200E6ED3B /* LaunchScreen.storyboard */,
+				5C722B821DEBCC6200E6ED3B /* Info.plist */,
+				5C722B721DEBCC6200E6ED3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C722B8A1DEBCC6200E6ED3B /* LIXCardFormDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C722B8B1DEBCC6200E6ED3B /* LIXCardFormDemoTests.m */,
+				5C722B8D1DEBCC6200E6ED3B /* Info.plist */,
+			);
+			path = LIXCardFormDemoTests;
+			sourceTree = "<group>";
+		};
+		5C722B951DEBCC6200E6ED3B /* LIXCardFormDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C722B961DEBCC6200E6ED3B /* LIXCardFormDemoUITests.m */,
+				5C722B981DEBCC6200E6ED3B /* Info.plist */,
+			);
+			path = LIXCardFormDemoUITests;
+			sourceTree = "<group>";
+		};
+		5C722BAC1DEC060A00E6ED3B /* LIXCardForm */ = {
+			isa = PBXGroup;
+			children = (
+				5C722BB31DEC22D700E6ED3B /* LIXCardFormLayout */,
+				5C722BAD1DEC063400E6ED3B /* LIXCardForm.h */,
+				5C722BAE1DEC063400E6ED3B /* LIXCardForm.m */,
+				5C722BB01DEC145100E6ED3B /* LIXCardFormItem.h */,
+				5C722BB11DEC145100E6ED3B /* LIXCardFormItem.m */,
+			);
+			name = LIXCardForm;
+			sourceTree = "<group>";
+		};
+		5C722BB31DEC22D700E6ED3B /* LIXCardFormLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5C722BB41DEC232200E6ED3B /* LIXCollectionViewBasicFlowLayout.h */,
+				5C722BB51DEC232200E6ED3B /* LIXCollectionViewBasicFlowLayout.m */,
+				5C722BB71DEC38AB00E6ED3B /* LIXCollectionViewCoverFlowLayout */,
+			);
+			name = LIXCardFormLayout;
+			sourceTree = "<group>";
+		};
+		5C722BB71DEC38AB00E6ED3B /* LIXCollectionViewCoverFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5C722BB81DEC38E000E6ED3B /* LIXCollectionViewCoverFlowLayout.h */,
+				5C722BB91DEC38E000E6ED3B /* LIXCollectionViewCoverFlowLayout.m */,
+				5C722BBB1DED188800E6ED3B /* LIXCollectionViewCoverLayoutAttributes.h */,
+				5C722BBC1DED188800E6ED3B /* LIXCollectionViewCoverLayoutAttributes.m */,
+			);
+			name = LIXCollectionViewCoverFlowLayout;
+			sourceTree = "<group>";
+		};
+		5C7DD1C71DF53C8900F575B7 /* LIXDynamics */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DD1CB1DF53D9600F575B7 /* layouts */,
+				5C7DD1C81DF53D3B00F575B7 /* LIXDynamicViewController.h */,
+				5C7DD1C91DF53D3B00F575B7 /* LIXDynamicViewController.m */,
+				5C7DD1D21DF55DEF00F575B7 /* LIXSecondaryData.h */,
+				5C7DD1D31DF55DEF00F575B7 /* LIXSecondaryData.m */,
+			);
+			name = LIXDynamics;
+			sourceTree = "<group>";
+		};
+		5C7DD1CB1DF53D9600F575B7 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DD1CC1DF53DCA00F575B7 /* LIXDynamicFlowLayout.h */,
+				5C7DD1CD1DF53DCA00F575B7 /* LIXDynamicFlowLayout.m */,
+				5C7DD1CF1DF559FC00F575B7 /* LIXDetailFlowLayout.h */,
+				5C7DD1D01DF559FC00F575B7 /* LIXDetailFlowLayout.m */,
+			);
+			name = layouts;
+			sourceTree = "<group>";
+		};
+		5CBFF6ED1E011AB700C99379 /* SolidObject */ = {
+			isa = PBXGroup;
+			children = (
+				5CBFF6EE1E011B8000C99379 /* LIXSolidObjectViewController.h */,
+				5CBFF6EF1E011B8000C99379 /* LIXSolidObjectViewController.m */,
+				5C258A531E023966004A3071 /* LIXTwoSolidObjectView.h */,
+				5C258A541E023966004A3071 /* LIXTwoSolidObjectView.m */,
+			);
+			name = SolidObject;
+			sourceTree = "<group>";
+		};
+		5CBFF6F11E01303700C99379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CBFF6F21E01303700C99379 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CBFF6F41E01493700C99379 /* LayerTestVC */ = {
+			isa = PBXGroup;
+			children = (
+				5CBFF6F81E01517F00C99379 /* shapeLayer */,
+				5CBFF6F51E01499600C99379 /* LIXLayerTestViewController.h */,
+				5CBFF6F61E01499600C99379 /* LIXLayerTestViewController.m */,
+			);
+			name = LayerTestVC;
+			sourceTree = "<group>";
+		};
+		5CBFF6F81E01517F00C99379 /* shapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5CBFF6F91E0151AB00C99379 /* LIXShapeLayerView.h */,
+				5CBFF6FA1E0151AB00C99379 /* LIXShapeLayerView.m */,
+			);
+			name = shapeLayer;
+			sourceTree = "<group>";
+		};
+		5CFBA1931E09343F00312B53 /* niceGoods */ = {
+			isa = PBXGroup;
+			children = (
+				5CFBA1941E0934A000312B53 /* LIXNiceGoodsCollectionViewController.h */,
+				5CFBA1951E0934A000312B53 /* LIXNiceGoodsCollectionViewController.m */,
+				5CFBA1971E0934D900312B53 /* LIXNiceGoodsLayout.h */,
+				5CFBA1981E0934D900312B53 /* LIXNiceGoodsLayout.m */,
+			);
+			name = niceGoods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C722B6D1DEBCC6200E6ED3B /* LIXCardFormDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C722B9B1DEBCC6200E6ED3B /* Build configuration list for PBXNativeTarget "LIXCardFormDemo" */;
+			buildPhases = (
+				5C722B6A1DEBCC6200E6ED3B /* Sources */,
+				5C722B6B1DEBCC6200E6ED3B /* Frameworks */,
+				5C722B6C1DEBCC6200E6ED3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LIXCardFormDemo;
+			productName = LIXCardFormDemo;
+			productReference = 5C722B6E1DEBCC6200E6ED3B /* LIXCardFormDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C722B861DEBCC6200E6ED3B /* LIXCardFormDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C722B9E1DEBCC6200E6ED3B /* Build configuration list for PBXNativeTarget "LIXCardFormDemoTests" */;
+			buildPhases = (
+				5C722B831DEBCC6200E6ED3B /* Sources */,
+				5C722B841DEBCC6200E6ED3B /* Frameworks */,
+				5C722B851DEBCC6200E6ED3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C722B891DEBCC6200E6ED3B /* PBXTargetDependency */,
+			);
+			name = LIXCardFormDemoTests;
+			productName = LIXCardFormDemoTests;
+			productReference = 5C722B871DEBCC6200E6ED3B /* LIXCardFormDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C722B911DEBCC6200E6ED3B /* LIXCardFormDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C722BA11DEBCC6200E6ED3B /* Build configuration list for PBXNativeTarget "LIXCardFormDemoUITests" */;
+			buildPhases = (
+				5C722B8E1DEBCC6200E6ED3B /* Sources */,
+				5C722B8F1DEBCC6200E6ED3B /* Frameworks */,
+				5C722B901DEBCC6200E6ED3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C722B941DEBCC6200E6ED3B /* PBXTargetDependency */,
+			);
+			name = LIXCardFormDemoUITests;
+			productName = LIXCardFormDemoUITests;
+			productReference = 5C722B921DEBCC6200E6ED3B /* LIXCardFormDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C722B661DEBCC6200E6ED3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lixuzong;
+				TargetAttributes = {
+					5C722B6D1DEBCC6200E6ED3B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 672YA2K933;
+						ProvisioningStyle = Automatic;
+					};
+					5C722B861DEBCC6200E6ED3B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 672YA2K933;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C722B6D1DEBCC6200E6ED3B;
+					};
+					5C722B911DEBCC6200E6ED3B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 672YA2K933;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C722B6D1DEBCC6200E6ED3B;
+					};
+				};
+			};
+			buildConfigurationList = 5C722B691DEBCC6200E6ED3B /* Build configuration list for PBXProject "LIXCardFormDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C722B651DEBCC6200E6ED3B;
+			productRefGroup = 5C722B6F1DEBCC6200E6ED3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C722B6D1DEBCC6200E6ED3B /* LIXCardFormDemo */,
+				5C722B861DEBCC6200E6ED3B /* LIXCardFormDemoTests */,
+				5C722B911DEBCC6200E6ED3B /* LIXCardFormDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C722B6C1DEBCC6200E6ED3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C722B811DEBCC6200E6ED3B /* LaunchScreen.storyboard in Resources */,
+				5C722B7E1DEBCC6200E6ED3B /* Assets.xcassets in Resources */,
+				5C722B7C1DEBCC6200E6ED3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C722B851DEBCC6200E6ED3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C722B901DEBCC6200E6ED3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C722B6A1DEBCC6200E6ED3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4F34FA1E077D3D006A313B /* LIXWaterWaveView.m in Sources */,
+				5C4F35041E07D3F4006A313B /* LIXBouncePresentAnimaion.m in Sources */,
+				5C722BB21DEC145100E6ED3B /* LIXCardFormItem.m in Sources */,
+				5C722B791DEBCC6200E6ED3B /* ViewController.m in Sources */,
+				5CFBA1961E0934A000312B53 /* LIXNiceGoodsCollectionViewController.m in Sources */,
+				5C722B761DEBCC6200E6ED3B /* AppDelegate.m in Sources */,
+				5C4F34FE1E07CFF0006A313B /* LIXDIYMainViewController.m in Sources */,
+				5C7DD1D41DF55DEF00F575B7 /* LIXSecondaryData.m in Sources */,
+				5CBFF6FB1E0151AB00C99379 /* LIXShapeLayerView.m in Sources */,
+				5CBFF6F71E01499600C99379 /* LIXLayerTestViewController.m in Sources */,
+				5C722BB61DEC232200E6ED3B /* LIXCollectionViewBasicFlowLayout.m in Sources */,
+				5C258A551E023966004A3071 /* LIXTwoSolidObjectView.m in Sources */,
+				5C4F34F61E077D1C006A313B /* LIXWaterViewController.m in Sources */,
+				5C4F35011E07D015006A313B /* LIXDIYModalViewController.m in Sources */,
+				5C7DD1CA1DF53D3B00F575B7 /* LIXDynamicViewController.m in Sources */,
+				5C7DD1C61DF51CCB00F575B7 /* MainViewController.m in Sources */,
+				5C67B5141E0A7082008F43E6 /* LIXContainerViewController.m in Sources */,
+				5C722B731DEBCC6200E6ED3B /* main.m in Sources */,
+				5CFBA1991E0934D900312B53 /* LIXNiceGoodsLayout.m in Sources */,
+				5C7DD1CE1DF53DCA00F575B7 /* LIXDynamicFlowLayout.m in Sources */,
+				5C722BAF1DEC063400E6ED3B /* LIXCardForm.m in Sources */,
+				5C722BBD1DED188800E6ED3B /* LIXCollectionViewCoverLayoutAttributes.m in Sources */,
+				5C67B5171E0A71B6008F43E6 /* LIXPrivateTransitionContext.m in Sources */,
+				5CBFF6F01E011B8000C99379 /* LIXSolidObjectViewController.m in Sources */,
+				5C67B50F1E0A2CE6008F43E6 /* LIXScrollTabBarController.m in Sources */,
+				5C7DD1D11DF559FC00F575B7 /* LIXDetailFlowLayout.m in Sources */,
+				5C722BBA1DEC38E000E6ED3B /* LIXCollectionViewCoverFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C722B831DEBCC6200E6ED3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C722B8C1DEBCC6200E6ED3B /* LIXCardFormDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C722B8E1DEBCC6200E6ED3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C722B971DEBCC6200E6ED3B /* LIXCardFormDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C722B891DEBCC6200E6ED3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C722B6D1DEBCC6200E6ED3B /* LIXCardFormDemo */;
+			targetProxy = 5C722B881DEBCC6200E6ED3B /* PBXContainerItemProxy */;
+		};
+		5C722B941DEBCC6200E6ED3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C722B6D1DEBCC6200E6ED3B /* LIXCardFormDemo */;
+			targetProxy = 5C722B931DEBCC6200E6ED3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C722B7A1DEBCC6200E6ED3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C722B7B1DEBCC6200E6ED3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C722B7F1DEBCC6200E6ED3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C722B801DEBCC6200E6ED3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C722B991DEBCC6200E6ED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C722B9A1DEBCC6200E6ED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C722B9C1DEBCC6200E6ED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 672YA2K933;
+				INFOPLIST_FILE = LIXCardFormDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixuzong.LIXCardFormDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5C722B9D1DEBCC6200E6ED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 672YA2K933;
+				INFOPLIST_FILE = LIXCardFormDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixuzong.LIXCardFormDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		5C722B9F1DEBCC6200E6ED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 672YA2K933;
+				INFOPLIST_FILE = LIXCardFormDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixuzong.LIXCardFormDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIXCardFormDemo.app/LIXCardFormDemo";
+			};
+			name = Debug;
+		};
+		5C722BA01DEBCC6200E6ED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 672YA2K933;
+				INFOPLIST_FILE = LIXCardFormDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixuzong.LIXCardFormDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIXCardFormDemo.app/LIXCardFormDemo";
+			};
+			name = Release;
+		};
+		5C722BA21DEBCC6200E6ED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 672YA2K933;
+				INFOPLIST_FILE = LIXCardFormDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixuzong.LIXCardFormDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LIXCardFormDemo;
+			};
+			name = Debug;
+		};
+		5C722BA31DEBCC6200E6ED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 672YA2K933;
+				INFOPLIST_FILE = LIXCardFormDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixuzong.LIXCardFormDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LIXCardFormDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C722B691DEBCC6200E6ED3B /* Build configuration list for PBXProject "LIXCardFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C722B991DEBCC6200E6ED3B /* Debug */,
+				5C722B9A1DEBCC6200E6ED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C722B9B1DEBCC6200E6ED3B /* Build configuration list for PBXNativeTarget "LIXCardFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C722B9C1DEBCC6200E6ED3B /* Debug */,
+				5C722B9D1DEBCC6200E6ED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C722B9E1DEBCC6200E6ED3B /* Build configuration list for PBXNativeTarget "LIXCardFormDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C722B9F1DEBCC6200E6ED3B /* Debug */,
+				5C722BA01DEBCC6200E6ED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C722BA11DEBCC6200E6ED3B /* Build configuration list for PBXNativeTarget "LIXCardFormDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C722BA21DEBCC6200E6ED3B /* Debug */,
+				5C722BA31DEBCC6200E6ED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C722B661DEBCC6200E6ED3B /* Project object */;
+}
